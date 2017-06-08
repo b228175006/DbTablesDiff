@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@192.168.99.100:1521:orcl
+    username: hutie_paperless
+    password: hutie_paperless
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+mybatis:
+  type-aliases-package: com.enpvell.yunwei.entity
+
+
+inFilePath: "C:\\Users\\Administrator\\Desktop\\sql.sql"
+outFilePath: "C:\\Users\\Administrator\\Desktop\\sqlout.sql"
+server:
+  port: 8686
